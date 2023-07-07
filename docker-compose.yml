@@ -24,8 +24,7 @@ services:
 
   nginx:
     image: 'nginx:alpine'
-    ports:
-      - 80:80
+    container_name: jpw_nginx
     volumes:
       - ./.output/public:/usr/share/nginx/html:ro
     networks:

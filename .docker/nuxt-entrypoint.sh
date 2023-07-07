@@ -1,7 +1,5 @@
 #!/bin/sh
 
-source .env
-
 echo "Nuxt entrypoint [$NUXT_ENV]"
 
 if [[ $NUXT_ENV == 'dev' ]];
