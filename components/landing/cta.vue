@@ -13,11 +13,11 @@
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                         <a
                             href="https://wetzlar.church.tools/publicgroup/667"
-                            class="btn-info btn-lg btn"
+                            class="btn-info btn"
                             target="_blank"
                         >
                             Anmelden
-                            <icon name="material-symbols:arrow-right-alt" size="32" />
+                            <icon name="material-symbols:arrow-right-alt" />
                         </a>
                     </div>
                 </div>

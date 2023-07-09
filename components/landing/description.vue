@@ -53,16 +53,16 @@
                     </p>
                     <ul>
                         <li>
-                            <span class="font-semibold text-secondary-content">Ermutigung</span>,
+                            <span class="font-semibold text-primary">Ermutigung</span>,
                             weil unsere Bemühungen oft schwach sind.
                         </li>
                         <li>
-                            <span class="font-semibold text-secondary-content">Erfrischung</span>,
+                            <span class="font-semibold text-primary">Erfrischung</span>,
                             weil der Unglaube in uns und in anderen uns in Jesu
                             Dienst müde macht.
                         </li>
                         <li>
-                            <span class="font-semibold text-secondary-content">Erkenntnis</span>,
+                            <span class="font-semibold text-primary">Erkenntnis</span>,
                             weil Gott immer noch durch sein Wort spricht.
                         </li>
                     </ul>
