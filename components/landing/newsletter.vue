@@ -19,7 +19,7 @@
                             class="input w-full"
                             required
                         >
-                        <button type="submit" class="btn-secondary btn">
+                        <button type="submit" class="btn-warning btn">
                             Anmelden
                         </button>
                     </div>
