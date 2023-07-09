@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden py-20">
+    <div class="relative isolate overflow-hidden bg-secondary py-20 text-neutral">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-x-20">
                 <div class="my-auto text-center lg:mx-0 lg:flex-auto lg:text-left">
@@ -13,11 +13,11 @@
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                         <a
                             href="https://wetzlar.church.tools/publicgroup/667"
-                            class="btn-info btn"
+                            class="btn-info btn-lg btn"
                             target="_blank"
                         >
-                            <icon name="material-symbols:assignment-turned-in" />
                             Anmelden
+                            <icon name="material-symbols:arrow-right-alt" size="32" />
                         </a>
                     </div>
                 </div>

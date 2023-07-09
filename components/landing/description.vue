@@ -1,7 +1,7 @@
 <template>
-    <div class="relative isolate overflow-hidden py-20">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="relative ms-6">
+    <div class="relative isolate overflow-hidden pb-20">
+        <div class="mx-auto max-w-4xl px-6 lg:px-8">
+            <div class="relative">
                 <div
                     class="absolute
                      left-6
@@ -21,7 +21,7 @@
                      rounded-xl
                      border-4
                      border-base-content
-                     bg-transparent
+                     bg-base-300/60
                      p-6
                      text-lg
                      backdrop-blur"
@@ -29,7 +29,7 @@
                     <div>
                         Paulus schreibt dem jungen Pastor Timotheus:
                     </div>
-                    <div class="font-medium text-secondary-content">
+                    <div class="font-medium text-primary">
                         “Strebe eifrig danach, dich Gott als bewährt zu
                         erweisen, als einen Arbeiter, der sich nicht zu
                         schämen braucht, der das Wort der Wahrheit

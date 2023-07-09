@@ -29,10 +29,11 @@
                      bg-link-water
                      p-6
                      pr-[100vw]
-                     text-3xl
+                     text-xl
                      font-semibold
-                     uppercase
-                     text-neutral"
+                     text-neutral
+                     sm:text-2xl
+                     lg:text-3xl"
                 >
                     <span class="mr-6">
                         2023:
@@ -70,10 +71,12 @@
                         <icon name="streamline:interface-user-profile-focus-close-geometric-human-person-profile-focus-user" size="36" />
                     </div>
                     <div class="ml-4">
-                        <h2 class="text-3xl font-semibold">
+                        <h2
+                            class="text-xl font-semibold sm:text-2xl lg:text-3xl"
+                        >
                             mit Nigel Styles
                         </h2>
-                        <p class="hidden text-lg sm:block">
+                        <p class="text-lg sm:block">
                             Director des „Cornhill Training Course“ & Leiter von Proclamation Trust“, London
                         </p>
                     </div>
