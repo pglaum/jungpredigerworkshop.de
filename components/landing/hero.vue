@@ -11,7 +11,7 @@
              bg-clip-text
              text-center
              font-sans
-             text-[clamp(2rem,10vw,5rem)]
+             text-[clamp(3rem,13vw,9rem)]
              font-bold
              text-transparent"
         >
