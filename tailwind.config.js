@@ -19,9 +19,13 @@ module.exports = {
             {
                 light: {
                     ...require('daisyui/src/theming/themes')['[data-theme=light]'],
-                    primary: '#7F0101',
-                    'primary-focus': '#6b0101',
-                    'primary-content': '#ffffff',
+                    primary: '#2E4B68',
+                    'primary-focus': '#23394F',
+                    'primary-content': '#fff',
+                    secondary: '#F5D99A',
+                    'secondary-focus': '#F0C667',
+                    'secondary-content': '#000',
+                    accent: '#DAE9F4',
                 },
             },
             {
@@ -30,6 +34,10 @@ module.exports = {
                     primary: '#a70101',
                     'primary-focus': '#6b0101',
                     'primary-content': '#eeeeee',
+                    secondary: '#F4C16E',
+                    'secondary-focus': '#F0AB3A',
+                    'secondary-content': '#000',
+                    accent: '#2E4B68',
                 },
             },
         ],

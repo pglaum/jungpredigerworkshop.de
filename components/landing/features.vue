@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-rajah py-20 text-neutral">
+    <div class="w-full bg-secondary py-20 text-neutral">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-3xl lg:text-center">
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
