@@ -4,6 +4,7 @@ export default defineNuxtConfig({
         '@nuxtjs/google-fonts',
         '@nuxtjs/tailwindcss',
         '@vueuse/nuxt',
+        'nuxt-icon',
     ],
     app: {
         head: {
@@ -17,7 +18,9 @@ export default defineNuxtConfig({
     },
     googleFonts: {
         families: {
-            Montserrat: true,
+            Montserrat: {
+                wght: [ 400, 500, 600, 700, 800, 900, ],
+            },
         },
     },
 })

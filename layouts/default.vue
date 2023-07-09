@@ -4,10 +4,11 @@
             class="fixed
              inset-x-0
              top-0
+             z-10
              flex
              h-24
              items-center
-             bg-gradient-to-r
+             bg-gradient-to-t
              from-transparent
              to-base-100
              p-4"
