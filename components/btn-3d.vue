@@ -3,12 +3,15 @@
         class="group
          relative
          cursor-pointer
+         select-none
          p-0
          outline-none
          outline-offset-4
          transition-all
          duration-[250]
-         hover:brightness-110"
+         hover:brightness-110
+         focus:[&:not(:focus-visible)]:outline-none"
+        style="-webkit-tap-highlight-color: transparent;"
         @click="$emit('clicked')"
     >
         <span
@@ -20,6 +23,7 @@
              -translate-y-0.5
              rounded-xl
              bg-black/25
+             blur-sm
              transition-transform
              duration-[600]
              ease-[cubic-bezier(.3,.7,.4,.1)]
