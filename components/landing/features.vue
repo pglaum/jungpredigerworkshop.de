@@ -42,19 +42,22 @@
 <script setup lang="ts">
 const features = [
     {
-        name: 'Vorträge',
-        description: 'mit Nigel Styles durch das Buch Josua',
+        name: 'Vorträge zu einem Bibelbuch',
+        description: 'Nigel Styles wird uns durch das Buch Josua führen und uns zeigen, ' +
+            'wie wir das Evangelium daraus predigen können.',
         icon: 'streamline:interface-content-book-open-content-books-book-open',
     },
     {
-        name: 'Workshop',
-        description: 'in Feedback-Gruppen (Halten einer Kurzpredigt und anschließende Reflexion)',
-        icon: 'streamline:interface-presentation-podium-work-desk-notes-company-presentation-office-podium-microphone',
+        name: 'Freundschaften',
+        description: 'Als Pastoren und Prediger kann man sich schnell allein gelassen fühlen. Deswegen gibt es viel Zeit, einander kennenzulernen, neue Freundschaften zu knüpfen, und alte Freundschaften zu vertiefen.',
+        icon: 'fa6-regular:handshake',
     },
     {
-        name: 'Freundschaften',
-        description: 'unter werdenden Pastoren und Predigern',
-        icon: 'fa6-regular:handshake',
+        name: 'Predigt-Feedback-Gruppen',
+        description: 'Jeder kann eine vorbereitete Kurzpredigt von 10-20 min zu einem Abschnitt aus ' +
+            'Josua mitbringen. In den Gruppen hören wir dann aufeinander und geben hilfreiches Feedback, ' +
+            'sodass wir als Prediger wachsen können.',
+        icon: 'streamline:interface-presentation-podium-work-desk-notes-company-presentation-office-podium-microphone',
     },
 ]
 </script>

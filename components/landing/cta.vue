@@ -37,8 +37,13 @@
 const bullets = [
     {
         name: 'Ort',
-        description: 'Immanuel-Gemeinde Wetzlar, Elisabethenstraße 23, 35576 Wetzlar (es kann im Gemeindehaus übernachtet werden)',
+        description: 'Immanuel-Gemeinde Wetzlar, Elisabethenstraße 23, 35576 Wetzlar',
         icon: 'streamline:travel-map-location-pin-navigation-map-maps-pin-gps-location',
+    },
+    {
+        name: 'Übernachtung',
+        description: 'Es kann im Gemeindehaus übernachtet werden (Dusche vorhanden)',
+        icon: 'ph:bed',
     },
     {
         name: 'Datum',
