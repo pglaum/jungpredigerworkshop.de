@@ -29,7 +29,7 @@ useSeoMeta({
     ogTitle: title,
     description,
     ogDescription: description,
-    ogImage: '/img/favicon.png',
+    ogImage: '/img/full-logo.png',
     twitterCard: 'summary_large_image',
 })
 </script>
