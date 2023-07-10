@@ -2,7 +2,7 @@
     <a
         href="https://www.evangelium21.net/"
         target="_blank"
-        class="col-span-2 flex h-24 w-full justify-center fill-base-content"
+        class="flex h-24 justify-center fill-base-content"
         :class="isDark ? 'fill-base-content' : 'fill-[#0029ba]'"
     >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 362.68 56.59" class="h-full">
