@@ -14,14 +14,14 @@
                             id="email-address"
                             name="email"
                             type="email"
-                            placeholder="Gib deine Email Adresse ein"
+                            placeholder="Deine Email Adresse..."
                             autocomplete="email"
-                            class="input w-full"
+                            class="input -mt-0.5 w-full"
                             required
                         >
-                        <button type="submit" class="btn-warning btn">
+                        <btn-3d color="rajah" size="base" class="">
                             Anmelden
-                        </button>
+                        </btn-3d>
                     </div>
                 </div>
                 <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">

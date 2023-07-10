@@ -11,14 +11,13 @@
                         Richtwert für einen Spendenbeitrag: 40€ (Mahlzeiten inkl.)
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                        <a
-                            href="https://wetzlar.church.tools/publicgroup/667"
-                            class="btn-info btn"
-                            target="_blank"
+                        <btn-3d
+                            color="san-juan"
+                            @clicked="goToRegistration()"
                         >
                             Anmelden
                             <icon name="material-symbols:arrow-right-alt" />
-                        </a>
+                        </btn-3d>
                     </div>
                 </div>
                 <div class="mx-auto mt-20 grow px-6 lg:mt-0">
@@ -52,5 +51,9 @@ const bullets = [
         icon: 'streamline:interface-alert-warning-triangle-frame-alert-warning-triangle-exclamation-caution',
     },
 ]
+
+const goToRegistration = () => {
+    window.open('https://wetzlar.church.tools/publicgroup/667', '_blank').focus()
+}
 
 </script>

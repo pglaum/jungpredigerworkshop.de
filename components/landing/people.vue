@@ -40,7 +40,9 @@
                                 <a
                                     :href="person.href"
                                     class="link-hover link"
+                                    target="_blank"
                                 >
+                                    <icon name="streamline:interface-arrows-expand-5-expand-small-bigger-retract-smaller-big" class="me-1" />
                                     {{ person.role }}
                                 </a>
                             </p>
