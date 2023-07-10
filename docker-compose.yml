@@ -27,6 +27,8 @@ services:
     container_name: jpw_nginx
     volumes:
       - ./.output/public:/usr/share/nginx/html:ro
+      - './.docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro'
+    restart: unless-stopped
     networks:
       - proxy
 

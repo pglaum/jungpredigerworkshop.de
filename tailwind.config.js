@@ -20,6 +20,7 @@ module.exports = {
                 light: {
                     ...require('daisyui/src/theming/themes')['[data-theme=light]'],
                     primary: '#2E4B68',
+                    'primary-content': '#222',
                     secondary: '#F5D99A',
                     'secondary-focus': '#F0C667',
                     'secondary-content': '#F4C16E',
@@ -32,6 +33,7 @@ module.exports = {
                 dark: {
                     ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
                     primary: '#F5D99A',
+                    'primary-content': '#eee',
                     secondary: '#F4C16E',
                     'secondary-focus': '#F0AB3A',
                     'secondary-content': '#F5D99A',

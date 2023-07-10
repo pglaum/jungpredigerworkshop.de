@@ -1,14 +1,25 @@
 <template>
     <div class="relative">
         <div
-            class="fixed inset-x-0 top-0 z-10 flex h-24 items-center bg-base-100/50 p-4 backdrop-blur"
+            class="fixed
+             inset-x-0
+             top-0
+             z-10
+             flex
+             h-24
+             items-center
+             bg-base-100/50
+             p-4
+             text-primary-content
+             backdrop-blur"
         >
-            <logo class="h-16 fill-base-content stroke-base-content" />
+            <logo class="h-16 fill-primary-content stroke-primary-content" />
 
             <logo-text />
 
             <button
-                class="ms-auto h-6 w-6 rounded-full bg-base-content"
+                class="ms-auto h-6 w-6 rounded-full bg-primary-content"
+                aria-label="Toggle dark mode"
                 @click="toggleDark()"
             />
         </div>

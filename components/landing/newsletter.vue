@@ -1,5 +1,5 @@
 <template>
-    <div class="relative isolate overflow-hidden bg-accent py-20">
+    <div class="relative isolate overflow-hidden bg-accent py-20 text-primary-content">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                 <div class="max-w-xl lg:max-w-lg">
