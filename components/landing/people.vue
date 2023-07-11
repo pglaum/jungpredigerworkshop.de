@@ -17,6 +17,9 @@
                             :src="person.image"
                             :alt="person.name"
                             class="h-16 w-16 min-w-[4rem] rounded-full object-cover"
+                            height="128"
+                            width="128"
+                            densities="x1 x2"
                         />
                         <div
                             v-else
