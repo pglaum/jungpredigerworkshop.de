@@ -55,21 +55,11 @@
                      pl-[100vw]
                      text-neutral"
                 >
-                    <div
-                        class="
-                         ms-6
-                         flex
-                         h-16
-                         w-16
-                         min-w-[4rem]
-                         items-center
-                         justify-center
-                         rounded-full
-                         bg-neutral
-                         text-white"
+                    <img
+                        src="/pr/nigel-styles.jpeg"
+                        alt="Nigel Styles"
+                        class="h-16 w-16 min-w-[4rem] rounded-full object-cover"
                     >
-                        <icon name="streamline:interface-user-profile-focus-close-geometric-human-person-profile-focus-user" size="36" />
-                    </div>
                     <div class="ml-4">
                         <h2
                             class="text-xl font-semibold sm:text-2xl lg:text-3xl"

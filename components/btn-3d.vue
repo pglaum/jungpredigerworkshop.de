@@ -57,7 +57,7 @@
              group-active:duration-[34]
              "
             :class="{
-                'bg-san-juan text-white': color === 'san-juan',
+                'bg-hippie-blue text-white': color === 'hippie-blue',
                 'bg-rajah text-neutral': color === 'rajah',
                 'text-xl': size === 'xl',
                 'text-lg': size === 'lg',
@@ -73,7 +73,7 @@
 const props = defineProps({
     color: {
         type: String,
-        default: 'san-juan',
+        default: 'hippie-blue',
     },
     size: {
         type: String,
@@ -83,8 +83,8 @@ const props = defineProps({
 const { color, } = toRefs(props)
 
 defineEmits([ 'clicked', ])
-const btnBgStyle = color.value === 'san-juan'
-    ? 'background: linear-gradient( to left, #182736 0%, #23394F 8%, #23394F 92%, #182736 100%);'
+const btnBgStyle = color.value === 'hippie-blue'
+    ? 'background: linear-gradient( to left, #274053 0%, #426C8D 8%, #426C8D 92%, #274053 100%);'
     : 'background: linear-gradient( to left, #AD700D 0%, #F0AB3A 8%, #F0AB3A 92%, #AD700D 100%);'
 
 </script>

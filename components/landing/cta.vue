@@ -4,17 +4,14 @@
             <div class="grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-x-20">
                 <div class="my-auto text-center lg:mx-0 lg:flex-auto lg:text-left">
                     <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
-                        Melde dich für die Konferenz an.
+                        Melde dich für den Workshop an.
                     </h2>
 
                     <p class="mt-6 text-lg leading-8">
                         Richtwert für einen Spendenbeitrag: 40€ (Mahlzeiten inkl.)
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                        <btn-3d
-                            color="san-juan"
-                            @clicked="goToRegistration()"
-                        >
+                        <btn-3d @clicked="goToRegistration()">
                             Anmelden
                             <icon name="material-symbols:arrow-right-alt" />
                         </btn-3d>
@@ -24,7 +21,14 @@
                     <dl
                         class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10"
                     >
-                        <bullet v-for="bullet in bullets" :key="bullet.name" :icon="bullet.icon" :name="bullet.name" :description="bullet.description" />
+                        <bullet
+                            v-for="bullet in bullets"
+                            :key="bullet.name"
+                            :icon="bullet.icon"
+                            :name="bullet.name"
+                            :description="bullet.description"
+                            color="hippie-blue"
+                        />
                     </dl>
                 </div>
             </div>

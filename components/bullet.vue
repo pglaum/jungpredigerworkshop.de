@@ -11,8 +11,11 @@
                  items-center
                  justify-center
                  rounded-lg
-                 bg-san-juan
                  text-white"
+                :class="{
+                    'bg-hippie-blue': color === 'hippie-blue',
+                    'bg-san-juan': color === 'san-juan',
+                }"
             >
                 <icon :name="icon" />
             </div>
@@ -37,6 +40,10 @@ defineProps({
     description: {
         type: String,
         required: true,
+    },
+    color: {
+        type: String,
+        default: 'san-juan',
     },
 })
 </script>
