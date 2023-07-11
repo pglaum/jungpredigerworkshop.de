@@ -12,12 +12,12 @@
             <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
                 <li v-for="person in people" :key="person.name">
                     <div class="flex items-center gap-x-6">
-                        <img
+                        <nuxt-img
                             v-if="person.image"
                             :src="person.image"
                             :alt="person.name"
                             class="h-16 w-16 min-w-[4rem] rounded-full object-cover"
-                        >
+                        />
                         <div
                             v-else
                             class="flex

@@ -55,11 +55,11 @@
                      pl-[100vw]
                      text-neutral"
                 >
-                    <img
+                    <nuxt-img
                         src="/pr/nigel-styles.jpeg"
                         alt="Nigel Styles"
                         class="h-16 w-16 min-w-[4rem] rounded-full object-cover"
-                    >
+                    />
                     <div class="ml-4">
                         <h2
                             class="text-xl font-semibold sm:text-2xl lg:text-3xl"

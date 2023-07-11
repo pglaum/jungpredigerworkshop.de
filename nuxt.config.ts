@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     modules: [
+        '@nuxt/image',
         '@nuxtjs/google-fonts',
         '@nuxtjs/tailwindcss',
         '@vueuse/nuxt',
@@ -36,5 +37,8 @@ export default defineNuxtConfig({
                 wght: [ 400, 500, 600, 700, 800, 900, ],
             },
         },
+    },
+    image: {
+
     },
 })

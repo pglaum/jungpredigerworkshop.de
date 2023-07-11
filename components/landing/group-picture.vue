@@ -2,7 +2,7 @@
     <div class="pb-20">
         <div class="group mx-auto max-w-7xl sm:px-8">
             <div class="relative">
-                <img class="image-full sm:rounded-3xl" src="/pr/gruppenbild.jpeg" alt="Gruppenbild">
+                <nuxt-img class="image-full sm:rounded-3xl" src="/pr/gruppenbild.jpeg" alt="Gruppenbild" />
                 <div
                     class="absolute
                      left-6
