@@ -63,9 +63,9 @@
 <script setup lang="ts">
 const people = [
     {
-        image: '',
+        image: '/pr/fabian-bromann.jpg',
         name: 'Fabian Bromann',
-        about: 'Jahrgang YYYY, Pastor der',
+        about: 'Jahrgang 1991, Pastor der',
         church: 'EFG Schwülper',
         href: 'https://efg-schwuelper.de/index.php',
     },
@@ -100,7 +100,7 @@ const people = [
     {
         image: 'pr/larry-norman-1.png',
         name: 'Larry Norman',
-        about: 'Jahrgang 1987, Pastor der',
+        about: 'Jahrgang 1987, Assistant Pastor der',
         church: 'Leipzig English Church',
         href: 'https://leipzig.english.church/de/',
     },
