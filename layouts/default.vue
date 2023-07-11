@@ -13,9 +13,14 @@
              text-primary-content
              backdrop-blur"
         >
-            <logo class="h-16 fill-primary-content stroke-primary-content" />
+            <div
+                class="flex cursor-pointer"
+                @click="scrollToTop()"
+            >
+                <logo class="h-16 fill-primary-content stroke-primary-content" />
 
-            <logo-text />
+                <logo-text />
+            </div>
 
             <button
                 class="ms-auto h-6 w-6 rounded-full bg-primary-content"
@@ -36,4 +41,12 @@ const isDark = useDark({
     valueLight: 'light',
 })
 const toggleDark = useToggle(isDark)
+
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+    })
+}
 </script>
