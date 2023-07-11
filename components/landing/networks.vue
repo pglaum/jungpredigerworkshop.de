@@ -1,7 +1,7 @@
 <template>
-    <div class="p-20 px-6 lg:px-8">
+    <div class="px-6 pb-20 lg:px-8">
         <h2 class="text-center text-lg font-semibold leading-8">
-            Netzwerke, mit denen wir uns verbunden fühlen
+            Netzwerke, mit denen wir uns verbunden wissen
         </h2>
         <div
             class="mx-auto

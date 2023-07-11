@@ -10,6 +10,8 @@
 
         <landing-people />
 
+        <landing-group-picture />
+
         <landing-networks />
 
         <landing-newsletter />

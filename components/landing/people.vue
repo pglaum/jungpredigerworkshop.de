@@ -16,7 +16,7 @@
                             v-if="person.image"
                             :src="person.image"
                             :alt="person.name"
-                            class="h-16 w-16 min-w-[4rem] rounded-full"
+                            class="h-16 w-16 min-w-[4rem] rounded-full object-cover"
                         >
                         <div
                             v-else
@@ -37,13 +37,16 @@
                                 {{ person.name }}
                             </h3>
                             <p class="text-sm font-semibold leading-6">
+                                {{ person.about }}
                                 <a
                                     :href="person.href"
-                                    class="link-hover link"
+                                    class="group"
                                     target="_blank"
                                 >
-                                    <icon name="streamline:interface-arrows-expand-5-expand-small-bigger-retract-smaller-big" class="me-1" />
-                                    {{ person.role }}
+                                    <span class="group-hover:underline">
+                                        {{ person.church }}
+                                    </span>
+                                    <icon name="streamline:interface-arrows-expand-5-expand-small-bigger-retract-smaller-big" class="ms-1" />
                                 </a>
                             </p>
                         </div>
@@ -58,39 +61,45 @@
 const people = [
     {
         image: '',
+        name: 'Fabian Bromann',
+        about: 'Jahrgang YYYY, Pastor der',
+        church: 'EFG Schwülper',
+        href: 'https://efg-schwuelper.de/index.php',
+    },
+    {
+        image: 'pr/emil-grundmann.jpg',
+        name: 'Emil Grundmann',
+        about: 'Jahrgang 1990, Pastor der',
+        church: 'Nordstern Kirche Frankfurt/Main',
+        href: 'https://www.nordstern-frankfurt.de/',
+    },
+    {
+        image: 'pr/alexander-heistermann.jpg',
+        name: 'Alexander Heistermann',
+        about: 'Jahrgang 1991, Pastor der',
+        church: 'FeG Hamburg-Farmsen',
+        href: 'https://www.feg-farmsen.de/',
+    },
+    {
+        image: 'pr/jonathan-malisi.jpg',
         name: 'Jonathan Malisi',
-        role: 'Pastor der Immanuel-Gemeinde Wetzlar',
+        about: 'Jahrgang 1996, Pastor der',
+        church: 'Immanuel-Gemeinde Wetzlar',
         href: 'https://immanuel-wetzlar.de',
     },
     {
         image: '',
-        name: 'Jonathan Malisi',
-        role: 'Pastor der Immanuel-Gemeinde Wetzlar',
-        href: 'https://immanuel-wetzlar.de',
+        name: 'Joseph McMahon',
+        about: 'Jahrgang YYYY, Pastor der',
+        church: 'Stadtmission Nidda',
+        href: 'https://wonderl.ink/@stadtmission-nidda',
     },
     {
-        image: '',
-        name: 'Jonathan Malisi',
-        role: 'Pastor der Immanuel-Gemeinde Wetzlar',
-        href: 'https://immanuel-wetzlar.de',
-    },
-    {
-        image: '',
-        name: 'Jonathan Malisi',
-        role: 'Pastor der Immanuel-Gemeinde Wetzlar',
-        href: 'https://immanuel-wetzlar.de',
-    },
-    {
-        image: '',
-        name: 'Jonathan Malisi',
-        role: 'Pastor der Immanuel-Gemeinde Wetzlar',
-        href: 'https://immanuel-wetzlar.de',
-    },
-    {
-        image: '',
-        name: 'Jonathan Malisi',
-        role: 'Pastor der Immanuel-Gemeinde Wetzlar',
-        href: 'https://immanuel-wetzlar.de',
+        image: 'pr/larry-norman-1.png',
+        name: 'Larry Norman',
+        about: 'Jahrgang 1987, Pastor der',
+        church: 'Leipzig English Church',
+        href: 'https://leipzig.english.church/de/',
     },
 ]
 </script>
