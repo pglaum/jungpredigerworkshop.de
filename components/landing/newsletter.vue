@@ -11,7 +11,7 @@
                     </p>
                 </div>
 
-                <div class="relative mt-6 flex max-w-md items-center gap-x-4">
+                <div class="relative mt-6 max-w-md items-center gap-x-4 sm:flex">
                     <label for="email-address" class="sr-only">
                         Emailadresse
                     </label>
@@ -24,7 +24,7 @@
                         class="input w-full"
                         required
                     >
-                    <btn-3d color="rajah" size="base" class="">
+                    <btn-3d color="rajah" size="base" class="mt-6 sm:mt-0">
                         Anmelden
                     </btn-3d>
                 </div>
