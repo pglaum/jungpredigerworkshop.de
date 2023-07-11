@@ -34,4 +34,8 @@ useSeoMeta({
     ogImage: '/img/full-logo.png',
     twitterCard: 'summary_large_image',
 })
+
+onMounted(() => {
+    document.addEventListener('touchstart', () => {}, { passive: true, })
+})
 </script>
