@@ -4,6 +4,7 @@ services:
   jungpredigerworkshop:
     image: ghcr.io/pglaum/jungpredigerworkshop.de
     build: .
+    platform: linux/amd64
     networks:
       swarm-proxy:
 
