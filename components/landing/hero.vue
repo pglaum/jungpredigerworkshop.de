@@ -58,7 +58,7 @@
                     <nuxt-img
                         src="/pr/nigel-styles.jpeg"
                         alt="Nigel Styles"
-                        class="h-16 w-16 min-w-[4rem] rounded-full object-cover"
+                        class="ml-6 h-16 w-16 min-w-[4rem] rounded-full object-cover"
                     />
                     <div class="ml-4">
                         <h2
