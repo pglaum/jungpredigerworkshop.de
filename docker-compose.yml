@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jungpredigerworkshop:
+    image: 127.0.0.1:5000/jungpredigerworkshop.de
+    build: .
+    networks:
+      swarm-proxy:
+
+networks:
+  swarm-proxy:
+    external: True
