@@ -2,7 +2,7 @@ version: '3'
 
 services:
   jungpredigerworkshop:
-    image: ghcr.io/pglaum/jungpredigerworkshop.de
+    image: ghcr.io/pglaum/jungpredigerworkshop.de:latest
     build: .
     networks:
       swarm-proxy:
