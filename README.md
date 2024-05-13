@@ -2,7 +2,7 @@
 
 This is the official website of the [Jungprediger Workshop](https://jungpredigerworkshop.de).
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot.jpg)
 
 ## Setup dev
 
