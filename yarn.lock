@@ -674,9 +674,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@kalimahapps/eslint-plugin-tailwind@https://github.com/pglaum/eslint-plugin-tailwind":
-  version "1.0.4"
-  resolved "https://github.com/pglaum/eslint-plugin-tailwind#7de6b6c5c99d584afba772322bf50194ddd20e58"
+"@kalimahapps/eslint-plugin-tailwind@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@kalimahapps/eslint-plugin-tailwind/-/eslint-plugin-tailwind-1.1.0.tgz#685a621c087a6a830d8c5ae10fbef63676593e2f"
+  integrity sha512-dA52xYEOQJ1Hxrl5Hqn50N9A8VRoO2jw3nvzVwq48+BdGWeYeOl6FaZPJEVEdn6ZEaytvm13yczMWhKAVfI1kw==
   dependencies:
     lodash.orderby "^4.6.0"
 
@@ -7009,7 +7010,6 @@ wide-align@^1.1.2:
     string-width "^1.0.2 || 2 || 3 || 4"
 
 wrap-ansi@^7.0.0:
-  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
