@@ -6,7 +6,7 @@ RUN mkdir /nuxt
 WORKDIR /nuxt
 
 # install dependencies
-COPY package*.json ./
+COPY package.json yarn.lock ./
 RUN yarn install
 
 # run build
