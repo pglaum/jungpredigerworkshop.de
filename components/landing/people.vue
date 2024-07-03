@@ -5,9 +5,6 @@
                 <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
                     Unser Leitungskreis
                 </h2>
-                <p class="mt-6 hidden text-lg leading-8">
-                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
-                </p>
             </div>
             <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
                 <li v-for="person in people" :key="person.name">
@@ -24,14 +21,14 @@
                         <div
                             v-else
                             class="flex
-                             h-16
-                             w-16
-                             min-w-[4rem]
-                             items-center
-                             justify-center
-                             rounded-full
-                             bg-san-juan
-                             text-white"
+                                h-16
+                                w-16
+                                min-w-[4rem]
+                                items-center
+                                justify-center
+                                rounded-full
+                                bg-san-juan
+                                text-white"
                         >
                             <icon name="streamline:interface-user-profile-focus-close-geometric-human-person-profile-focus-user" size="32" />
                         </div>
