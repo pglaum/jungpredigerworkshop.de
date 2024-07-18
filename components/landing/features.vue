@@ -15,16 +15,16 @@
                     <dt class="text-base font-bold leading-7">
                         <div
                             class="absolute
-                             left-0
-                             top-0
-                             flex
-                             h-10
-                             w-10
-                             items-center
-                             justify-center
-                             rounded-lg
-                             bg-san-juan
-                             text-white"
+                                left-0
+                                top-0
+                                flex
+                                h-10
+                                w-10
+                                items-center
+                                justify-center
+                                rounded-lg
+                                bg-san-juan
+                                text-white"
                         >
                             <icon :name="feature.icon" />
                         </div>
@@ -43,7 +43,7 @@
 const features = [
     {
         name: 'Vorträge zu einem Bibelbuch',
-        description: 'Nigel Styles wird uns durch das Buch Josua führen und uns zeigen, ' +
+        description: 'Andrew Sach wird uns durch den Epheserbrief führen und uns zeigen, ' +
             'wie wir das Evangelium daraus predigen können.',
         icon: 'streamline:interface-content-book-open-content-books-book-open',
     },

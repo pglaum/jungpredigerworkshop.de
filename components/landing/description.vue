@@ -4,27 +4,26 @@
             <div class="relative">
                 <div
                     class="absolute
-                     left-6
-                     top-6
-                     z-[-1]
-                     h-full
-                     w-full
-                     max-w-xl
-                     rounded-xl
-                     border-4
-                     border-maize
-                     p-4"
+                        left-6
+                        top-6
+                        z-[-1]
+                        h-full
+                        w-full
+                        max-w-xl
+                        rounded-xl
+                        border-4
+                        border-maize
+                        p-4"
                 />
                 <div
-                    class="
-                     max-w-xl
-                     rounded-xl
-                     border-4
-                     border-base-content
-                     bg-base-300/60
-                     p-6
-                     text-lg
-                     backdrop-blur"
+                    class="max-w-xl
+                        rounded-xl
+                        border-4
+                        border-base-content
+                        bg-base-300/60
+                        p-6
+                        text-lg
+                        backdrop-blur"
                 >
                     <div>
                         Paulus schreibt dem jungen Pastor Timotheus:

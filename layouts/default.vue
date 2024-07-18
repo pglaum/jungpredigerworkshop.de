@@ -2,16 +2,17 @@
     <div class="relative">
         <div
             class="fixed
-             inset-x-0
-             top-0
-             z-10
-             flex
-             h-24
-             items-center
-             bg-base-100/50
-             p-4
-             text-primary-content
-             backdrop-blur"
+                inset-x-0
+                top-0
+                z-10
+                flex
+                h-24
+                items-center
+                bg-base-100/50
+                p-2
+                text-primary-content
+                backdrop-blur
+                sm:p-4"
         >
             <div
                 class="flex cursor-pointer"
