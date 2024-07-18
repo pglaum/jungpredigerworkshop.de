@@ -74,13 +74,6 @@ const people = [
         href: 'https://www.nordstern-frankfurt.de/',
     },
     {
-        image: '/pr/alexander-heistermann.jpg',
-        name: 'Alexander Heistermann',
-        about: 'Jahrgang 1991, Pastor der',
-        church: 'FeG Hamburg-Farmsen',
-        href: 'https://www.feg-farmsen.de/',
-    },
-    {
         image: '/pr/jonathan-malisi.jpg',
         name: 'Jonathan Malisi',
         about: 'Jahrgang 1996, Pastor der',
