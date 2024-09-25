@@ -55,7 +55,7 @@ const features = [
     {
         name: 'Predigt-Feedback-Gruppen',
         description: 'Jeder kann eine vorbereitete Kurzpredigt von 10-20 min zu einem Abschnitt aus ' +
-            'Josua mitbringen. In den Gruppen hören wir dann aufeinander und geben hilfreiches Feedback, ' +
+            'dem Epheserbrief mitbringen. In den Gruppen hören wir dann aufeinander und geben hilfreiches Feedback, ' +
             'sodass wir als Prediger wachsen können.',
         icon: 'streamline:interface-presentation-podium-work-desk-notes-company-presentation-office-podium-microphone',
     },

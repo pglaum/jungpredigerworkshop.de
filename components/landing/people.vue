@@ -69,9 +69,9 @@ const people = [
     {
         image: '/pr/emil-grundmann.jpg',
         name: 'Emil Grundmann',
-        about: 'Jahrgang 1990, Pastor der',
-        church: 'Nordstern Kirche Frankfurt/Main',
-        href: 'https://www.nordstern-frankfurt.de/',
+        about: 'Jahrgang 1990, theologischer Referent',
+        church: '(Mitglied EFG Unna)',
+        href: 'https://www.efg-unna.de',
     },
     {
         image: '/pr/jonathan-malisi.jpg',

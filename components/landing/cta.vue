@@ -8,7 +8,7 @@
                     </h2>
 
                     <p class="mt-6 text-lg leading-8">
-                        Richtwert für einen Spendenbeitrag: 40€ (Mahlzeiten inkl.)
+                        Richtwert für einen Spendenbeitrag: 50€ (Mahlzeiten inkl.)
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                         <btn-3d @clicked="goToRegistration()">
@@ -56,7 +56,7 @@ const bullets = [
     },
     {
         name: 'Anmeldeschluss',
-        description: '10. Oktober 2024',
+        description: '14. Oktober 2024',
         icon: 'streamline:interface-alert-warning-triangle-frame-alert-warning-triangle-exclamation-caution',
     },
 ]
