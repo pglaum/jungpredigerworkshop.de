@@ -24,7 +24,7 @@
                         class="input w-full"
                         required
                     >
-                    <btn-3d color="rajah" size="base" class="mt-6 sm:mt-0">
+                    <btn-3d color="rajah" size="base" class="mt-6 sm:mt-0" @clicked="goToRegistration()">
                         Anmelden
                     </btn-3d>
                 </div>
@@ -32,3 +32,9 @@
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+const goToRegistration = () => {
+    window.open('https://wetzlar.church.tools/publicgroup/667', '_blank').focus()
+}
+</script>
