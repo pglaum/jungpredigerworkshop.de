@@ -5,8 +5,8 @@ services:
     image: ghcr.io/pglaum/jungpredigerworkshop.de:main
     build: .
     networks:
-      swarm-proxy:
+      proxy:
 
 networks:
-  swarm-proxy:
+  proxy:
     external: True
