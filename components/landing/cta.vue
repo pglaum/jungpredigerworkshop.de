@@ -51,12 +51,12 @@ const bullets = [
     },
     {
         name: 'Datum',
-        description: '24.10. (ab 16 Uhr) - 26.10.2024 (ca. 14 Uhr)',
+        description: '23.10. (ab 16 Uhr) - 25.10.2025 (ca. 14 Uhr)',
         icon: 'streamline:interface-calendar-date-month-thirty-thirty-calendar-date-week-day-month',
     },
     {
         name: 'Anmeldeschluss',
-        description: '14. Oktober 2024',
+        description: '14. Oktober 2025',
         icon: 'streamline:interface-alert-warning-triangle-frame-alert-warning-triangle-exclamation-caution',
     },
 ]

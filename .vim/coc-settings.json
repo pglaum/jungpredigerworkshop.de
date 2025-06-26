@@ -9,4 +9,7 @@
   ],
   "volar.takeOverMode.enabled": true,
   "tsserver.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 }

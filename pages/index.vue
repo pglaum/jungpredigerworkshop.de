@@ -21,10 +21,9 @@
 </template>
 
 <script setup lang="ts">
-const title = 'Jungprediger Workshop'
-const description = 'Der Jungprediger-Workshop soll Pastoren in ihren ersten Dienstjahren ' +
-    'und auch angehenden Pastoren und Laienpredigern helfen, Gottes Wort der Wahrheit ' +
-    '„recht auszuteilen“.'
+const title = 'Ezra Workshop'
+const description = 'Ezra existiert, um dich auszurüsten, ' +
+    'Gottes Wort tiefer zu verstehen und treu weiterzugeben.'
 
 useSeoMeta({
     title,

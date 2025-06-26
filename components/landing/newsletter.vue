@@ -16,6 +16,7 @@
                         Emailadresse
                     </label>
                     <input
+                        v-if="false"
                         id="email-address"
                         name="email"
                         type="email"
@@ -25,7 +26,7 @@
                         required
                     >
                     <btn-3d color="rajah" size="base" class="mt-6 sm:mt-0" @clicked="goToRegistration()">
-                        Anmelden
+                        Jetzt anmelden!
                     </btn-3d>
                 </div>
             </div>
@@ -35,6 +36,6 @@
 
 <script setup lang="ts">
 const goToRegistration = () => {
-    window.open('https://wetzlar.church.tools/publicgroup/667', '_blank').focus()
+    window.open('https://flow.cleverreach.com/fl/7f419bec-2cdd-443b-880c-9ae83058617c/', '_blank').focus()
 }
 </script>

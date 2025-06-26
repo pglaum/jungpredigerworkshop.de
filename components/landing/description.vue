@@ -25,17 +25,13 @@
                         text-lg
                         backdrop-blur"
                 >
-                    <div>
-                        Paulus schreibt dem jungen Pastor Timotheus:
-                    </div>
                     <div class="font-medium text-primary">
-                        “Strebe eifrig danach, dich Gott als bewährt zu
-                        erweisen, als einen Arbeiter, der sich nicht zu
-                        schämen braucht, der das Wort der Wahrheit
-                        recht teilt.“
+                        “Ezra hatte sein Herz darauf gerichtet, das Gesetz des HERRN zu
+                        erforschen und zu tun und in Israel die Ordnung und das Recht
+                        des HERRN zu lehren.“
                     </div>
                     <div class="text-right">
-                        &mdash; 2. Tim 2,15
+                        &mdash; Ezra 7,10
                     </div>
                 </div>
             </div>
@@ -43,33 +39,23 @@
             <div class="container mx-auto mt-20 max-w-xl">
                 <div class="prose text-lg">
                     <p>
-                        Gottes Wort richtig zu verstehen, zu beherzigen
-                        und weiterzugeben ist also keine
-                        Selbsverständlichkeit für Prediger. Es ist sowohl
-                        das Herz als auch das Ziel unseres Dienstes.
-                        Etwas, worin wir alle Ermutigung, Erfrischung
-                        und wachsende Erkenntnis brauchen:
+                        Wir wollen dich ausrüsten, Gottes Wort tiefer zu verstehen
+                        und treu weiterzugeben. Aber wie gelingt uns das bei den
+                        Geschichten des Alten Testaments?
+                        <br>
+                        In unserem Workshop wollen wir uns dieses Jahr mit Elia
+                        und Elisa beschäftigen.
                     </p>
-                    <ul>
-                        <li>
-                            <span class="font-semibold text-primary">Ermutigung</span>,
-                            weil unsere Bemühungen oft schwach sind.
-                        </li>
-                        <li>
-                            <span class="font-semibold text-primary">Erfrischung</span>,
-                            weil der Unglaube in uns und in anderen uns in Jesu
-                            Dienst müde macht.
-                        </li>
-                        <li>
-                            <span class="font-semibold text-primary">Erkenntnis</span>,
-                            weil Gott immer noch durch sein Wort spricht.
-                        </li>
-                    </ul>
                     <p>
-                        In diesem Sinne soll der Jungprediger-Workshop
-                        Pastoren in ihren ersten Dienstjahren, wie auch angehenden
-                        Pastoren und Laienpredigern helfen,
-                        Gottes Wort der Wahrheit „recht auszuteilen“.
+                        Unser Ziel ist es, euch Werkzeuge an die Hand zu geben, um
+                        alttestamentliche Erzähltexte bibeltheologisch einzuordnen und
+                        sie verständlich und mit dem Evangelium im Zentrum weiterzugeben.
+                    </p>
+                    <p>
+                        Der Ezra Workshop ist für Vollzeit-, Teilzeit- und Freizeitprediger
+                        gedacht, sowie für alle, die in ihrem Verständnis von Gottes Wort
+                        wachsen und es regelmäßig in Andachten, Bibelarbeiten oder Ähnlichem
+                        weitergeben wollen.
                     </p>
                 </div>
             </div>

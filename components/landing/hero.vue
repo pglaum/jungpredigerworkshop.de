@@ -11,7 +11,7 @@
                 text-san-juan
                 dark:text-maize"
         >
-            Jungprediger<br>
+            Ezra<br>
             Workshop
         </h1>
 
@@ -31,10 +31,10 @@
                         lg:text-3xl"
                 >
                     <div class="mr-2">
-                        2024: Alles unter einem Haupt
+                        2025: Gottes Superhelden
                     </div>
                     <div class="mr-2 mt-2 text-lg">
-                        Die Paulusbriefe predigen (am Beispiel von Epheser)
+                        Alttestamentliche Erzähltexte weitergeben (am Beispiel von 1. & 2. Könige)
                     </div>
                 </div>
             </div>

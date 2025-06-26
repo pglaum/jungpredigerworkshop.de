@@ -43,21 +43,29 @@
 const features = [
     {
         name: 'Vorträge zu einem Bibelbuch',
-        description: 'Andrew Sach wird uns durch den Epheserbrief führen und uns zeigen, ' +
-            'wie wir das Evangelium daraus predigen können.',
+        description: 'Andrew Sach wird uns durch die Königebücher führen und uns zeigen, ' +
+            'wie wir das Evangelium daraus predigen und weitergeben können.',
         icon: 'streamline:interface-content-book-open-content-books-book-open',
     },
     {
         name: 'Freundschaften',
-        description: 'Als Pastoren und Prediger kann man sich schnell allein gelassen fühlen. Deswegen gibt es viel Zeit, einander kennenzulernen, neue Freundschaften zu knüpfen, und alte Freundschaften zu vertiefen.',
+        description: 'Bei unseren Workshops wollen wir auch bewusst Zeit einplanen, einander ' +
+            'besser kennenzulernen, neue Freundschaften zu knüpfen und alte Freundschaften zu ' +
+            'vertiefen.',
         icon: 'fa6-regular:handshake',
     },
     {
         name: 'Predigt-Feedback-Gruppen',
         description: 'Jeder kann eine vorbereitete Kurzpredigt von 10-20 min zu einem Abschnitt aus ' +
-            'dem Epheserbrief mitbringen. In den Gruppen hören wir dann aufeinander und geben hilfreiches Feedback, ' +
-            'sodass wir als Prediger wachsen können.',
+            'dem Königebüchern mitbringen. In den Gruppen hören wir dann aufeinander und geben hilfreiches Feedback, ' +
+            'sodass wir gemeinsam wachsen können.',
         icon: 'streamline:interface-presentation-podium-work-desk-notes-company-presentation-office-podium-microphone',
+    },
+    {
+        name: 'Predigt-Erarbeitungs-Gruppen',
+        description: 'Wenn du keine Kurzpredigt mitbringen möchtest, bieten wir dir auch an, in einer ' +
+            'Kleingruppe gemeinsam eine Kurzpredigt zu einem Abschnitt aus den Königebüchern zu vorzubereiten.',
+        icon: 'streamline:book-reading',
     },
 ]
 </script>
