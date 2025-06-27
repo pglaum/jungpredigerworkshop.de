@@ -14,16 +14,14 @@ export default defineNuxtConfig({
             },
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
-            title: 'Jungprediger Workshop',
+            title: 'Ezra Workshop',
             link: [
-                { rel: 'icon', type: 'image/png', href: '/img/favicon.png', },
+                { rel: 'icon', type: 'image/png', href: '/img/emblem-dunkelgelb.png', },
             ],
             meta: [
                 {
                     name: 'description',
-                    content: 'Der Jungprediger-Workshop soll Pastoren in ihren ersten Dienstjahren ' +
-                        'und auch angehenden Pastoren und Laienpredigern helfen, Gottes Wort der Wahrheit ' +
-                        '„recht auszuteilen“.',
+                    content: 'Ezra existiert, um dich auszurüsten, Gottes Wort tiefer zu verstehen und treu weiterzugeben.',
                 },
             ],
         },

@@ -18,9 +18,8 @@
                 class="flex cursor-pointer"
                 @click="scrollToTop()"
             >
-                <logo class="h-16 fill-primary-content stroke-primary-content" />
-
-                <logo-text />
+                <NuxtImg class="block h-16 dark:hidden" src="/img/hauptlogo-dunkelblau.png" alt="Ezra Logo" />
+                <NuxtImg class="hidden h-16 dark:block" src="/img/hauptlogo-hellgelb.png" alt="Ezra Logo" />
             </div>
 
             <button
