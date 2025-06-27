@@ -30,7 +30,7 @@ useSeoMeta({
     ogTitle: title,
     description,
     ogDescription: description,
-    ogImage: '/img/full-logo.png',
+    ogImage: '/img/hauptlogo-dunkelblau.png',
     twitterCard: 'summary_large_image',
 })
 
