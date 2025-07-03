@@ -8,7 +8,7 @@
                     </h2>
 
                     <p class="mt-6 text-lg leading-8">
-                        Richtwert für einen Spendenbeitrag: 50€ (Mahlzeiten inkl.)
+                        Richtwert für einen Spendenbeitrag: 55€ (Mahlzeiten inkl.)
                     </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                         <btn-3d @clicked="goToRegistration()">
@@ -62,7 +62,7 @@ const bullets = [
 ]
 
 const goToRegistration = () => {
-    window.open('https://wetzlar.church.tools/publicgroup/667', '_blank').focus()
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSduC4ifuAIG4BlM9MUZDDfW2S-wvscYkfmqSGIJxWo0wmWTwA/viewform', '_blank').focus()
 }
 
 </script>

@@ -16,7 +16,7 @@ export default defineNuxtConfig({
             viewport: 'width=device-width, initial-scale=1',
             title: 'Ezra Workshop',
             link: [
-                { rel: 'icon', type: 'image/png', href: '/img/emblem-dunkelgelb.png', },
+                { rel: 'icon', type: 'image/png', href: '/img/favicon.png', },
             ],
             meta: [
                 {
