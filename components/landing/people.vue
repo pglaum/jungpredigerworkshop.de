@@ -85,7 +85,7 @@ const people = [
         name: 'Joseph McMahon',
         about: 'Jahrgang 1991, Pastor der',
         church: 'Stadtmission Nidda',
-        href: 'https://wonderl.ink/@stadtmission-nidda',
+        href: 'https://www.stadtmissionnidda.de/',
     },
     {
         image: '/pr/larry-norman-1.png',
