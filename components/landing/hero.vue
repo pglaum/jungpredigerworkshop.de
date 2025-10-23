@@ -16,6 +16,22 @@
         </h1>
 
         <div class="mx-auto max-w-7xl">
+            <div
+                class="mx-auto
+                    mt-20
+                    max-w-xl
+                    rounded-xl
+                    bg-secondary
+                    p-6
+                    text-center
+                    text-lg
+                    font-semibold
+                    text-neutral"
+            >
+                Leider fällt der Workshop aufgrund der geringen Anmeldezahl aus.
+                Wir halten euch auf dem Laufenden, wann unser nächster Workshop stattfinden wird.
+            </div>
+
             <div class="mt-20 flex pl-6">
                 <div
                     class="mr-[-100vw]
